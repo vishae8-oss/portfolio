@@ -260,21 +260,21 @@ section h2::after {
     transform: scale(1.2);
 }
 
-.social-icons a:nth-child(2) { /* Twitter */
-    color: #1da1f2;
+.social-icons a:nth-child(2) { /* GitHub */
+    color: #000;
 }
 
 .social-icons a:nth-child(2):hover {
-    color: #0d95e8;
+    color: #333;
     transform: scale(1.2);
 }
 
-.social-icons a:nth-child(3) { /* Instagram */
-    color: #e4405f;
+.social-icons a:nth-child(3) { /* LinkedIn */
+    color: #0077b5;
 }
 
 .social-icons a:nth-child(3):hover {
-    color: #d6336c;
+    color: #005885;
     transform: scale(1.2);
 }
 

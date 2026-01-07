@@ -82,7 +82,7 @@ nav ul li a.active {
 
 /* Sections */
 section {
-    padding: 100px 0 60px;
+    padding: 120px 0 60px;
     background: rgba(255, 255, 255, 0.95);
     margin-bottom: 20px;
     transform: translateZ(0);
@@ -94,9 +94,12 @@ section:nth-child(even) {
 }
 
 section h2 {
+    color: #2c3e50;
+}
+
+section h2 {
     text-align: center;
     margin-bottom: 50px;
-    color: #2c3e50;
     font-weight: 600;
     font-size: 2.5em;
     text-transform: uppercase;
@@ -243,14 +246,35 @@ section h2::after {
 }
 
 .social-icons a {
-    color: #667eea;
     font-size: 2em;
     transition: all 0.3s ease;
     display: inline-block;
 }
 
-.social-icons a:hover {
-    color: #764ba2;
+.social-icons a:nth-child(1) { /* Email */
+    color: #007bff;
+}
+
+.social-icons a:nth-child(1):hover {
+    color: #0056b3;
+    transform: scale(1.2);
+}
+
+.social-icons a:nth-child(2) { /* Twitter */
+    color: #1da1f2;
+}
+
+.social-icons a:nth-child(2):hover {
+    color: #0d95e8;
+    transform: scale(1.2);
+}
+
+.social-icons a:nth-child(3) { /* Instagram */
+    color: #e4405f;
+}
+
+.social-icons a:nth-child(3):hover {
+    color: #d6336c;
     transform: scale(1.2);
 }
 
